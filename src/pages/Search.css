@@ -1,0 +1,11 @@
+.Search-results-header{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.Search-loader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

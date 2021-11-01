@@ -1,0 +1,81 @@
+.RecipeHelper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 40px 30px 30px;
+}
+
+.RecipeHelper-title {
+    font-size: 25px;
+    text-align: left;
+    margin: 0;
+}
+
+.RecipeHelper-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 20px;
+    font-size: 14px;
+}
+
+.RecipeHelper-img {
+    width: 50%;
+    height: 50%;
+}
+
+.RecipeHelper-ingredients {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+}
+
+.RecipeHelper-ingredient {
+    padding-bottom: 6px;
+}
+
+.RecipeHelper-moreInfo {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+}
+
+.RecipeHelper-labels-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.RecipeHelper-labels {
+    list-style-type: none;
+    text-align: left;
+    padding: 0 60px 0 0;
+}
+
+.RecipeHelper-label-header {
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+
+/* on small screens */
+@media (max-width: 600px) {
+    .RecipeHelper{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+    }
+
+    .RecipeHelper-title {
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .RecipeHelper-img {
+        width: 450px;
+        height: 450px;
+    }
+
+    .RecipeHelper-labels-container {
+        display: flex;
+        flex-direction: column;
+    }
+}

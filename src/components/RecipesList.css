@@ -1,0 +1,12 @@
+.Recipes-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Recipes-single {
+    text-align: center;
+    width: 350px;
+    height: 350px;
+    margin-bottom: 50px;
+}
