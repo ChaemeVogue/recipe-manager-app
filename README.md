@@ -25,6 +25,13 @@ Edamam Recipe Search V2 API.
 - In addition to a simple search, you can also use the health label dropdown 
   and narrow your search to only include recipes with the labels: 
   - vegetarian, gluten free, dairy free, tree nut free, or low sugar.
+ - When you find a recipe you like, click the image and you will be taken to a detailed view of that recipe including:
+   - ingredients,
+   - servings,
+   - calories,
+   - source where the recipe is from,
+   - diet labels, and
+   - health labels 
   
 ### Technologies Used
 - TypeScript
@@ -45,6 +52,16 @@ Edamam Recipe Search V2 API.
 - deploy this app to Github pages
   - create a login screen for the user to enter the api key and id, or
   - make an api call to my own backend and fetch the api key and id
+
+## Demo
+### HomePage
+<img src="https://github.com/ChaemeVogue/recipe-manager-app/blob/master/src/img/Recipe_Home_View.png" width="600"/>
+
+### Recipe Search Example
+<img src="https://github.com/ChaemeVogue/recipe-manager-app/blob/master/src/img/Recipe_Search_Demo.gif" width="600"/>
+
+### Recipe Details Example
+<img src="https://github.com/ChaemeVogue/recipe-manager-app/blob/master/src/img/Recipe_Details_Demo.gif" width="600"/>
 
 ## Learn More: React Documentation
 - You can learn more in the [Create React App documentation]
