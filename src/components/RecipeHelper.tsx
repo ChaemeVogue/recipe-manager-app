@@ -29,6 +29,7 @@ function RecipeId(uri: string) {
 }
 
 function RecipeHelper({title, image, uri, ingredients, servings, calories, source, dietLabels, healthLabels}: Props) {
+    // if recipeId is undefined => recipe details view
     if (uri === undefined) {
         return (
             <div className="RecipeHelper">
@@ -71,6 +72,7 @@ function RecipeHelper({title, image, uri, ingredients, servings, calories, sourc
             </div>
         );
     }
+    // else if recipeId is defined => recipe list view
     else {
         const recipeId = RecipeId(uri!);
         return (

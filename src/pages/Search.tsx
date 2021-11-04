@@ -35,13 +35,16 @@ function Search() {
                 const response = await fetch(url);
                 const data = await response.json();
                 setRecipes(data.hits);
+                console.log(data.hits)
             } catch (error) {
                 setError(true);
             }
+
             setLoading(false);
         };
         getRecipes();
     }, [healthLabel, searchTerm]);
+
 
     return (
         <div className="Search">

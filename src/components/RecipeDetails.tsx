@@ -1,5 +1,5 @@
 import React from "react";
-import RecipesHelper from "./RecipesHelper";
+import RecipeHelper from "./RecipeHelper";
 
 interface Prop {
     selectedRecipe: any[];
@@ -16,7 +16,8 @@ const RecipeDetails = ({selectedRecipe}: Prop) => {
                 {
                     selectedRecipe !== [] && selectedRecipe!.map((selectedRecipe) =>
                         <div className="RecipeDetails-single">
-                            <RecipesHelper
+                            <RecipeHelper
+
                                 key={selectedRecipe.uri}
                                 title={selectedRecipe.label}
                                 image={selectedRecipe.image}
