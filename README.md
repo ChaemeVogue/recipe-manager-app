@@ -40,7 +40,11 @@ Edamam Recipe Search V2 API.
   of narrowing their search using the health labels.
 
 ## Improvements I Would Like to Make
-- More selections for narrowing a search
+- More selections for narrowing a search, such as, dietLabels, calories, prep time
+- Properly define object arrays from the api instead of using `any[]`
+- deploy this app to Github pages
+  - create a login screen for the user to enter the api key and id, or
+  - make an api call to my own backend and fetch the api key and id
 
 ## Learn More: React Documentation
 - You can learn more in the [Create React App documentation]
